@@ -1,7 +1,6 @@
 const Note = ({ note, deleteNote }) => {
   return (
     <div
-      key={note.id}
       className="p-4 bg-white rounded-lg shadow-md border-l-4"
       style={{
         borderLeftColor:
